@@ -1055,7 +1055,7 @@ def best_poly_k(data, k=4, features_considered=8, reresult=False, centered=False
         data = poly_feature(data, bestf_1, bestf_2)
 
         if printout:
-            print("report:", report)
+            print(f'report:, {report}')
 
         poly_added.append([bestf_1, bestf_2])
         poly_added.append([bestf_2, bestf_1])

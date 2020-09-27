@@ -28,8 +28,8 @@ def get_cols(df):
     pos=np.asarray(pos)
     neg=np.asarray(neg)
 
-    print("pos shape is ",pos.shape)
-    print("neg shape is ", neg.shape)
+    print(f'pos shape is {pos.shape}')
+    print(f'neg shape is {neg.shape}')
 
     if len(pos)>=len(neg):
         l=len(pos)-len(neg)
