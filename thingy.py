@@ -47,10 +47,10 @@ def get_cols(df):
 
     return_df=pd.DataFrame()
 
-    return_df[name +" positive"]= pos
-    return_df[name + " negative"] = neg
+    return_df[f'{name} positive']= pos
+    return_df[f'{name} negative'] = neg
 
-    return_df.to_csv(name +'processed.csv')
+    return_df.to_csv(f'{name} processed.csv')
 
     return return_df
 
